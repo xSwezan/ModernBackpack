@@ -3,16 +3,11 @@
 registry = "test"
 
 [[package]]
-name = "evaera/promise"
-version = "4.0.0"
+name = "elttob/fusion"
+version = "0.2.0"
 dependencies = []
 
 [[package]]
-name = "howmanysmall/janitor"
-version = "1.15.1"
-dependencies = []
-
-[[package]]
-name = "xswezan/modulename"
+name = "xswezan/modernbackpack"
 version = "0.1.0"
-dependencies = [["Janitor", "howmanysmall/janitor@1.15.1"], ["Promise", "evaera/promise@4.0.0"]]
+dependencies = [["Fusion", "elttob/fusion@0.2.0"]]
